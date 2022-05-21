@@ -10,6 +10,7 @@ export default class Metadata {
     this.time = object.time ? new Date(object.time) : new Date();
     this.keywords = object.keywords;
     this.extensions = object.extensions;
+    /*
     if (object.author) {
       this.author = new Person(object.author);
     }
@@ -25,5 +26,6 @@ export default class Metadata {
     if (object.copyright) {
       this.copyright = new Copyright(object.copyright);
     }
+    */
   } 
 }
